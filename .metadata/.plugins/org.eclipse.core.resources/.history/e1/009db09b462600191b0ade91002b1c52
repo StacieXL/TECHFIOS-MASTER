@@ -1,0 +1,12 @@
+package topics.Package1;
+public class inherit extends AccessModifiers{
+//	public static void main(String[] args) {
+//		
+//		sumStatic();
+//		AccessModifiers object =new AccessModifiers();
+//		System.out.println(object.b);
+
+	} 
+
+}
+ 

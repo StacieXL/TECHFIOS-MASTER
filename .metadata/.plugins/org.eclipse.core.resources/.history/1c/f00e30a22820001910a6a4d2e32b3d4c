@@ -1,0 +1,13 @@
+package Topics;
+public class Function {
+	public static void main(String[] args){
+		char x = '+';
+		if (x == '+') {
+
+		}
+	}	
+	
+	
+
+}
+

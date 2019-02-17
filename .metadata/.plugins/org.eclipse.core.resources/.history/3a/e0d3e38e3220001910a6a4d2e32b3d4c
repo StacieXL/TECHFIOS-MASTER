@@ -1,0 +1,25 @@
+package Topics;
+import java.util.Scanner;
+public class ScannerX {
+	public static void main(String[] args) {
+
+//int input		
+		System.out.println("Enter number");	
+		Scanner1 input1 = new Scanner1 (System.in);
+		int number = input1.nextInt(); 
+		System.out.println(number);
+
+//string input		
+		System.out.println("Enter string");	
+		Scanner1 input2 = new Scanner1 (System.in); 
+		String string = input2.nextLine(); 
+		System.out.println(string);
+		
+// char input (use single quote)
+		System.out.println("Enter character");	
+		Scanner1 input3 = new Scanner1 (System.in);
+		char char1 = input3.next().charAt(0);
+		System.out.println(char1);
+	}
+
+}

@@ -1,0 +1,77 @@
+package topics;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+public class Hashsett {
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> list = new ArrayList<>(); 
+		list.add(4);
+		list.add(5); 
+		list.add(1);
+		list.add(2);
+		list.add(2);
+		System.out.println("List (as is, add to end, duplicate): \n"+list);
+		System.out.println();
+			 	
+		Set<Integer> hash = new HashSet<>(); 				
+		hash.add(10);
+		hash.add(20); 
+		hash.add(30);
+		hash.add(40);
+		hash.add(50);
+		System.out.println("Hash set (random): \n"+hash);
+		System.out.println();
+		
+		Set<Integer> hash2 = new HashSet<>(); 				
+		hash2.add(1);
+		hash2.add(2); 
+		hash2.add(3);
+		hash2.add(4);
+		hash2.add(5);
+		System.out.println("Hash set <16 (not random): \n"+hash2);
+		System.out.println();
+		
+		Set<String> hashStr = new HashSet<>(); 				
+		hashStr.add("aa");
+		hashStr.add("aa"); 
+		hashStr.add("xx"); 
+		hashStr.add("yy");
+		hashStr.add("zz");
+		System.out.println("Hash set (random, unique): \n"+hashStr);
+		System.out.println();
+		
+		Set<String> hashStr = new HashSet<>(); 
+		hashStr.add("BMW");
+		hashStr.add("Audi"); 
+		hashStr.add("Nissan"); 
+		hashStr.add("Honda");
+		hashStr.add("Toyota");
+		hashStr.add("Acura");
+		hashStr.add("Kia");
+		hashStr.add("Mercedes");
+		hashStr.add("Tesla");
+		System.out.println("Hash set String (random): \n"+hashStr);
+		System.out.println();
+		
+		Set<Integer> linkedHash = new LinkedHashSet<>(); 				
+		linkedHash.add(4);
+		linkedHash.add(5); 
+		linkedHash.add(1);
+		linkedHash.add(2);
+		linkedHash.add(3);
+		System.out.println("LinkedHash (as is, add to end): \n"+linkedHash);
+		System.out.println();
+		
+		Set<Integer> tree = new TreeSet<>(); 				
+		tree.add(4);
+		tree.add(5); 
+		tree.add(1);
+		tree.add(2);
+		tree.add(3);
+		System.out.println("Tree set (sorted): \n"+tree);
+		System.out.println();                           
+	}
+}  

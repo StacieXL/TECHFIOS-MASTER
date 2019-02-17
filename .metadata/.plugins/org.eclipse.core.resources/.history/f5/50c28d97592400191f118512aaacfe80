@@ -1,0 +1,15 @@
+package Topics;
+public class CurrentClass {
+	public static void main(String[] args) {
+		Addition();
+		CurrentClass.Addition();
+		
+	
+	}
+	public static void Addition() {
+		System.out.println("2+2");
+	}
+	
+	
+	
+}

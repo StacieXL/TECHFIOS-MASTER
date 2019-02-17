@@ -1,0 +1,19 @@
+package Topics;
+import java.util.Scanner;
+public class Scanner1 {
+	public static void main(String[] args) {
+
+//int input		
+		System.out.println("Enter number");	
+		Scanner input1 = new Scanner (System.in);
+		int number = input1.nextInt(); 
+		System.out.println(number);
+
+//string input		
+		System.out.println("Enter string");	
+		Scanner input2 = new Scanner (System.in); 
+		String string = input2.nextLine(); 
+		System.out.println(string);
+	}
+
+}

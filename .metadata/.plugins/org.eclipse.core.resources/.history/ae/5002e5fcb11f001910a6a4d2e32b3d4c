@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="44916" name="MichaelM" modified="2019-01-24 21:29:12" author="Michael">
+    <searchResultIndication color="#000000" />
+    <filteredSearchResultIndication color="#000000" />
+    <occurrenceIndication color="#000000" />
+    <writeOccurrenceIndication color="#000000" />
+    <findScope color="#111111" />
+    <deletionIndication color="#D25252" />
+    <sourceHoverBackground color="#000000" />
+    <singleLineComment color="#FFFFFF" italic="false" />
+    <multiLineComment color="#FFFFFF" italic="false" />
+    <commentTaskTag color="#FFFFFF" italic="false" />
+    <javadoc color="#FFFFFF" italic="false" />
+    <javadocLink color="#BBBBBB" bold="false" italic="false" />
+    <javadocTag color="#BBBBBB" bold="false" italic="false" />
+    <javadocKeyword color="#BBBBBB" bold="false" italic="false" />
+    <class color="#FFAE00" bold="false" underline="false" strikethrough="false" />
+    <interface color="#FF00FF" />
+    <method color="#00FFF0" />
+    <methodDeclaration color="#00FFF0" />
+    <bracket color="#FFFFFF" bold="false" />
+    <number color="#FF00FF" />
+    <string color="#D25252" />
+    <operator color="#FFFFFF" />
+    <keyword color="#FF0000" bold="false" />
+    <annotation color="#FFFF00" />
+    <staticMethod color="#0000FF" />
+    <localVariable color="#FFFF00" />
+    <localVariableDeclaration color="#00FF00" />
+    <field color="#00FF00" />
+    <staticField color="#FFF000" />
+    <staticFinalField color="#FFF000" />
+    <deprecatedMember color="#D25252" underline="false" strikethrough="true" />
+    <enum color="#7FB347" />
+    <inheritedMethod color="#BED6FF" />
+    <abstractMethod color="#BED6FF" />
+    <parameterVariable color="#79ABFF" />
+    <typeArgument color="#FF00FF" />
+    <typeParameter color="#FF00FF" />
+    <constant color="#EFC090" />
+    <background color="#000000" />
+    <currentLine color="#2A2A2A" />
+    <foreground color="#D8D8D8" />
+    <lineNumber color="#EFC090" />
+    <selectionBackground color="#00FF00" />
+    <selectionForeground color="#000000" />
+</colorTheme>

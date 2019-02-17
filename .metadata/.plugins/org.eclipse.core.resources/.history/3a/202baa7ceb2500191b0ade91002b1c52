@@ -1,0 +1,9 @@
+package homeWorks.HW4AccessModifier;
+public class uninherite {
+	public static void main(String[] args) {
+			Modifier.sumStatic();
+			System.out.println(Modifier.s);
+	}
+
+}
+ 

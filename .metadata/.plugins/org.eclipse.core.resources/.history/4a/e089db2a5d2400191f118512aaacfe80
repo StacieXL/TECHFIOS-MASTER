@@ -1,0 +1,16 @@
+package Topics;
+public class CurrentClass {
+	public static void main(String[] args) {
+		int x,y;
+		
+		staticFunction(x,y);
+		CurrentClass.staticFunction(x,y);
+		
+		DifferentClass customObj = new DifferentClass();
+		customObj.staticFunction();
+		DifferentClass.staticFunction();
+	}
+	public static void staticFunction(int x, int y) {
+		System.out.println(x+y);
+	}	
+}

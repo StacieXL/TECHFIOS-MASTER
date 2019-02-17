@@ -1,0 +1,45 @@
+package Topics;
+public class Functions extends Inherit {
+	public static void main(String[] args) {		
+		
+		Functions C = new Functions ();
+	    switch (operator) {		
+	    	case '+':		
+	    		C.addition 	(number1, number2);	
+	    		break;		
+	    	case '-':		
+		  		C.subtraction (number1, number2);	
+		  		break;		
+	    	case 'x':		
+		  		C.multiply 	(number1, number2);
+		  		break;
+	    	case '/':		
+		  		C.divide 		(number1, number2);	
+		  		break;
+	    }
+	}
+	
+	
+	
+	public void addition (double number1, double number2) {
+		double add = number1 + number2; 		
+		System.out.println(number1 + " + " + number2 + " = " + add);
+	}
+	public void subtraction (double number1, double number2) {
+		double sub = number1 - number2; 	
+		System.out.println(number1 + " - " + number2 + " = " + sub);
+	}
+	public void multiply (double number1, double number2) {
+		double mult = number1 * number2; 	
+		System.out.println(number1 + " x " + number2 + " = " + mult);
+	}
+	public void divide (double number1, double number2) {
+		double div = number1 / number2; 	
+		System.out.println(number1 + " / " + number2 + " = " + div);
+	}
+}
+
+//Summary:  scanner double and char + switch + arguental functions
+//local and global variables		
+//static non static functions and object
+//inheritance

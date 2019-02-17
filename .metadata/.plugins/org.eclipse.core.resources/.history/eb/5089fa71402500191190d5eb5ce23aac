@@ -1,0 +1,24 @@
+package topics;
+public class GlobalVar{	
+	static int x = 1;
+	static int y = 2;	
+	public static void main(String[] args) { 		
+		
+		sum (x,y);                        // 1 way
+		GlobalVar.sum(x, y);                 // 2 way		
+				
+	}
+
+	public static void sum(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}	
+	
+	public void minus(int num1, int num2) {
+		System.out.println(num1 - num2);
+	}
+	
+}
+
+
+
+	

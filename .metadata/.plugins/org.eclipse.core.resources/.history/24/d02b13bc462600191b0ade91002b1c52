@@ -1,0 +1,9 @@
+package topics.Package1;
+public class Pack1Uninherit {
+//	public static void main(String[] args) {
+//			AccessModifiers.sumStatic();
+//			System.out.println(AccessModifiers.s);
+	}
+
+}
+ 

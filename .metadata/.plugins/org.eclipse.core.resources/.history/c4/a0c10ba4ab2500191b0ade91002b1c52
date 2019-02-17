@@ -1,0 +1,25 @@
+package homeWorks;
+public class HW4Overload2 {
+
+	public HW4Overload2() {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String x) {
+		System.out.println(" ");	
+	}		
+	public HW4Overload2(int x) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(int x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String y, int x) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String y, int x, int z) {
+		System.out.println(" ");		
+	}
+}

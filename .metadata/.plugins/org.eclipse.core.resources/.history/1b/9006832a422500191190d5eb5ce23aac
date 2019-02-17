@@ -1,0 +1,30 @@
+package topics;
+public class GlobalVar{	
+	static int a = 1;
+	static int b = 2;
+	public static void main(String[] args) { 
+		int c = 3;
+		int d = 4;	
+		
+		sumStatic (a,b);                        // 1 way
+		sumStatic (c,d);                        // 1 way
+		GlobalVar customObj = new GlobalVar ();
+		customObj.sumGlobalNonStatic(c,d);                 // 2 way		
+				
+	}
+
+	public static void sumStatic(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}	
+	public static void sumLocalStatic(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}	
+	
+	public static void sumGlobalNonStatic(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}	
+}
+
+
+
+	

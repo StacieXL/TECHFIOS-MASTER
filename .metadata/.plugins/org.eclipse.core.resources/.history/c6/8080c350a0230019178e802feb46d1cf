@@ -1,0 +1,33 @@
+package Topics;
+public class Sandbox {
+	public static void main(String[] args) {
+	
+		String string ="How are you doing?";
+		char[] b = string.toCharArray();
+		System.out.println(b);
+		System.out.println("Length of charArray = "+b.length);
+		for (int i=0;i<b.length;i++) {
+			System.out.println("Index["+i+"] = " +b[i]);
+		}
+		
+		
+		System.out.println("===========");
+		String[] splitArray = string.split(" ");	
+		System.out.println("Length of stringArray = "+splitArray.length);
+		for (int j=0;j<splitArray.length;j++) {
+			System.out.println("Index["+j+"] = " +splitArray[j]);
+		}
+		
+		
+		System.out.println("===========");
+		String[] split = string.split(" ");	
+		System.out.println("Length of stringArray = "+split.length);
+		for (int k=0;k<split.length;k++) {
+			String[] splitAgain = split[k].split("o");	
+			for (int l=0;l<splitAgain.length;l++) {
+			System.out.println("Index["+l+"] = " +splitAgain[l]);
+			}
+		}
+	}	
+}
+

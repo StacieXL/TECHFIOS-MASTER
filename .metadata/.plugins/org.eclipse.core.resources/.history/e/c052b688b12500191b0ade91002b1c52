@@ -1,0 +1,32 @@
+package homeWorks;
+public class HW4Overload2 {
+
+	public HW4Overload2() {          // default no input
+		System.out.println("Default Constructor");	
+		System.out.println();
+	}	
+	public HW4Overload2(String x) {  //single argument
+		System.out.println("1 argument: String = \"" +x+"\"");
+		System.out.println();
+	}		
+	public HW4Overload2(int x) {
+		System.out.println("1 argument: int    =  " +x);	
+		System.out.println();
+	}	
+	public HW4Overload2(String x, String y) {  //two argument
+		System.out.println("2 args: String + String = "+  x+" & "+y);	
+		System.out.println();
+	}	
+	public HW4Overload2(int x, String y) {
+		System.out.println("2 args: int + String = "+y+ " #"+x);		
+		System.out.println();
+	}	
+	public HW4Overload2(String y, int x) {
+		System.out.println("2 args: (Reverse parameter is OK) = "+y+ " still #"+x);
+		System.out.println();
+	}	
+	public HW4Overload2(String y, int x, int z) {
+		System.out.println("3 args: arg1 + arg2 + arg3 = " +y+x+z);			
+		System.out.println();
+	}
+}

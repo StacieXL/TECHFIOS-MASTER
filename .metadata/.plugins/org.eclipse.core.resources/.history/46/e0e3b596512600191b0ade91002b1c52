@@ -1,0 +1,52 @@
+package topics.Pack1;
+public class Pack1Mods {
+	private int				privateVar   = 1;			
+	int 					defaultVar   = 2;
+	protected int 			protectedVar = 3;
+	public 	int 			publicVar    = 4;
+	
+	static private int		statPrivate   = 5;			
+	static int 				statDefault   = 6;
+	static protected int 	statProtected = 7;
+	static public 	int 	statPublic    = 8;
+		                    
+	
+	public static void main (String[] args){
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+		
+		publicFunc();
+		privateFunc();
+		
+	}
+		
+	
+	public static void publicFunc() {
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+
+	}
+	
+	private static void privateFunc() {
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+	}
+	
+	
+	
+	 public void sum () {
+		 System.out.println(10+10);
+	 }
+	 public static void sumStatic() {
+		 System.out.println(10+10);
+		 System.out.println(+20);
+	 } 
+}

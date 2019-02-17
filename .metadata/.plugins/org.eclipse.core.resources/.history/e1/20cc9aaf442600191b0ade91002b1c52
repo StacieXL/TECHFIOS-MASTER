@@ -1,0 +1,10 @@
+package topics.DiffPack;
+
+public class nonsubclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

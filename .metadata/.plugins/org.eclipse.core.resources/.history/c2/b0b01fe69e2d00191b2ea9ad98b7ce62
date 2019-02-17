@@ -1,0 +1,36 @@
+package externalData;
+
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadFromProperties {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		
+		String path = "C:\\Users\\Minh\\workspace\\Topics\\src\\externalData\\Data.properties";		
+		Properties myObj = new Properties();
+		FileInputStream fs = new FileInputStream(path);
+		myObj.load(fs);
+		
+		
+		// 1 way
+		System.out.println(myObj.getProperty("name"));
+		System.out.println(myObj.getProperty("grade"));
+		System.out.println(myObj.getProperty("course"));
+		System.out.println();
+
+		
+		// 2 way		
+		int mark =Integer.parseInt(myObj.getProperty("grade"));
+		student(myObj.getProperty("name"),mark,myObj.getProperty("course"));
+	}
+	
+	public static void student(String namex, int gradex, String coursex) {
+		System.out.println(namex);
+		System.out.println(gradex);
+		System.out.println(coursex);
+	}
+}
+

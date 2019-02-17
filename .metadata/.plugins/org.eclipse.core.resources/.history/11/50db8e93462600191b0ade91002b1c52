@@ -1,0 +1,10 @@
+package topics.Package2;
+
+public class DiffPackNonInherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

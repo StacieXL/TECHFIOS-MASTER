@@ -1,0 +1,28 @@
+package Topics;
+public class Function {
+	public static void main(String[] args){
+		char x = '+';
+		if (x == '+') {
+			addition ();
+		}
+	}	
+	
+	
+	public static void addition (double number1, double number2) {
+		private double add = number1 + number2; 		
+		System.out.println(number1 + " + " + number2 + " = " + add);
+	}
+	public static void subtraction (double number1, double number2) {
+		private double sub = number1 - number2; 	
+		System.out.println(number1 + " - " + number2 + " = " + sub);
+	}
+	public static void multiply (double number1, double number2) {
+		private double mult = number1 * number2; 	
+		System.out.println(number1 + " x " + number2 + " = " + mult);
+	}
+	public static void divide (double number1, double number2) {
+		private double div = number1 / number2; 	
+		System.out.println(number1 + " / " + number2 + " = " + div);
+	}
+}
+

@@ -1,0 +1,87 @@
+package topics;
+
+public class Strings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String str2 = "tesc";
+	
+	//Length
+	System.out.println(str2.length());
+	
+	//CharAt
+	System.out.println(str2.charAt(0));
+	
+	//Combo of CharAt & length
+	System.out.println(str2.charAt(str2.length()-1));
+	
+	//Trim-only trim front/end of text space
+	String exam="    Trim me baby";
+	System.out.println(exam.trim());
+	String newstringwithtrim = str2.trim() ;
+	System.out.println(newstringwithtrim);
+	System.out.println(newstringwithtrim.length());
+	
+	//Concat
+	 System.out.println(str2.concat(" my lovely babe"));
+	 String concatnew= str2.concat(" my lovely babe");
+	 System.out.println(concatnew);
+	
+	 //Contains-to see if variables contains the questioned char,returns true/false only
+	 System.out.println(str2.contains("t"));
+	 
+	 //StartsWith- to see if variables starts with the questioned char,returns true/false only
+	 System.out.println(str2.startsWith("m"));
+	
+	//EndsWith- to see if variables ends with the questioned char,returns true/false (boolean) only
+		 System.out.println(str2.endsWith("m"));
+		 
+	//Compare with-to see if variables r the same with the questioned char,returns numbers only
+		 System.out.println(str2.compareTo("tesc"));
+		 System.out.println(str2.compareToIgnoreCase("tesC")); 
+		 
+	//Equals
+		 System.out.println(str2.equals("Lesc"));
+		 System.out.println(str2.equalsIgnoreCase("tesC")); 
+		 
+	//isEmpty
+		 String testcase= " ";
+		 System.out.println(testcase.isEmpty());
+		 
+	//Replace
+		 String replaceEmptyspace= "  My lovely place is here";
+		 System.out.println(replaceEmptyspace.replace(" ", ""));
+		 
+	//Indexof
+		 String mytest="Saturday";
+		 System.out.println(mytest.indexOf("t"));
+		 
+	//Substring (substring starts@exact & end@  according to char length
+		 String ourtest= "Beautiful";
+		 System.out.println(ourtest.substring(3));
+		 System.out.println(ourtest.substring(0,9));
+		 System.out.println(ourtest.length());
+		 
+		 
+		 
+	//Uppercase & LowerCase
+	String txt = "Hello World";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ }
+}

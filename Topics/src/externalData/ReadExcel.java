@@ -1,0 +1,62 @@
+package externalData;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.sl.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadExcel {
+
+	public static void main(String[] args) throws IOException   {
+		//Establish the path to file
+		File f = new File ("C:\\Users\\Stacie\\eclipse-workspace\\Topics\\src\\externalData\\ExcelData.xlsx");
+		FileInputStream fi = new FileInputStream (f);  //imports throws IOException
+		
+		//Create workbook
+		XSSFWorkbook Book = (XSSFWorkbook) WorkbookFactory.create (fi);
+
+		//Identify the worksheet to use at its index number in the workbook
+		XSSFSheet StudentAttendance = Book.getSheetAt(0);
+		
+		//Identify the Row & Cell
+		Row row0 = StudentAttendance.getRow(0);
+		Cell cellA1 = row0.getCell(0);
+
+		//Print out
+		System.out.println(cellA1);
+		
+		//Close out
+		fi.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

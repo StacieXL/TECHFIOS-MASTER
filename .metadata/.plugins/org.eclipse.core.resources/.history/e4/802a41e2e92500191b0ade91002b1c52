@@ -1,0 +1,9 @@
+package homeWorks.HW4AccessModifier;
+public class inherit extends Modifier{
+	public static void main(String[] args) {
+		sumStatic();
+
+
+	}
+
+}

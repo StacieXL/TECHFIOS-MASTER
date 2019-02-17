@@ -1,0 +1,23 @@
+package homeWorks;
+
+public class Homework3 {
+	public static void main(String[] args) {
+		
+// 1.print 1,4,8,12,16...                For loop
+		System.out.println("1");
+		for (int i = 4; i < 17; i+=4) {
+			System.out.println(i);	
+		} 			
+
+// 2.Given N ----print backwards to 0	while loop
+		System.out.println();
+		int j = 5;
+		while (j >= 0) {
+			System.out.print(j+" ");
+			j--;
+	  	}
+		
+
+	
+	}
+}

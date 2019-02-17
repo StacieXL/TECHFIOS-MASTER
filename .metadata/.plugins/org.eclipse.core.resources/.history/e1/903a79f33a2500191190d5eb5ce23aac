@@ -1,0 +1,11 @@
+package topics.staticNonstatic;
+public class Class2 {
+	
+	public static void sum(int num1, int num2) {
+		System.out.println(num1 + num2);
+	}
+	
+	public void minus(int num1, int num2) {
+		System.out.println(num1 - num2);
+	}
+}

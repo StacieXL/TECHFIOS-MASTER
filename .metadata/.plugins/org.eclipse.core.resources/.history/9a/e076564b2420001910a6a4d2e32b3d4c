@@ -1,0 +1,19 @@
+package Topics;
+public class Function {
+	public static void main(String[] args){
+		char x = '+';
+		if (x == '+') {
+			addition ();
+		}
+	}	
+	
+	
+	
+	public static void addition () {
+		System.out.println("addition");	
+	}
+	public static void subtraction () {
+		System.out.println("subtraction");
+	}
+}
+

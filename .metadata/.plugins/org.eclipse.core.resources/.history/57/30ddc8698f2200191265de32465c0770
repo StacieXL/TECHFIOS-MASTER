@@ -1,0 +1,31 @@
+package Topics;
+
+import java.util.Scanner;
+
+public class Sandbox {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i < 6; i++) {
+			System.out.println(i);	
+		} 
+		
+		String S ="abcdef";
+	for(int i = 0; i < 6; i++) {
+		System.out.print(i);
+//	    System.out.print(i++);
+
+	}
+	
+	System.out.println();
+	System.out.println("Type something :");	
+	Scanner userInput = new Scanner (System.in);
+	String userValue = userInput.nextLine();  
+	
+	for (int x = userValue.length()-1; x >=0; x--) {
+		char y = userValue.charAt(x);
+		if 
+	System.out.print(y);	
+	}
+}
+}

@@ -1,0 +1,14 @@
+package topics.Pack1;
+public class Pack1Non {
+	public static void main (String[] args){
+//		System.out.println(statPrivate);         // private access not allowed
+		Pack1ModsSystem.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+		
+		publicFunc();
+//		privateFunc();	          // private not allow
+	}
+}
+ 

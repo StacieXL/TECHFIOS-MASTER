@@ -1,0 +1,81 @@
+package topics;
+import java.util.Arrays;
+
+public class ArraySort {
+
+		public static void main(String[] args) {
+			
+	//Array literal: assigned at declaration (initialization)
+			char[] vowels = {'e','b','c','d','a'};  
+			
+			System.out.println("Foreach loop Array literal");
+			for (char item: vowels) {
+				System.out.print(item + " ");
+			}
+			System.out.println();
+			System.out.println();
+
+		
+			System.out.println("Sorting with Arrays.sort()");
+			Arrays.sort(vowels); 
+			for (char item: vowels) {
+				System.out.print(item + " ");
+			}
+			System.out.println();
+			System.out.println();
+			
+			
+			System.out.println(vowels[vowels.length-1]);
+			System.out.println();
+			
+	// Array declaration only: No assigned, only length 
+			String [] words = new String[5];
+			words[0] = "5five";		
+			words[1] = "2two";				
+			words[2] = "3three";		
+			words[3] = "4four";		
+			words[4] = "1one";	
+			System.out.println("For loop Array declaration ");
+			for(int i=0;i<=words.length-1;i++) {
+				System.out.println(words[i]);		
+			}
+			System.out.println();
+			
+			
+			System.out.println("Sorting with Arrays.sort()");
+			Arrays.sort(words); 
+			for(int i=0;i<=words.length-1;i++) {
+				System.out.println(words[i]);		
+			}
+			System.out.println();
+			
+	// Cannot change the size of fixed array
+			words = new String [6];
+			words[5] = "6six";	
+			System.out.println("Cannot change the size of fixed array");
+			for(int i=0;i<words.length;i++) {
+				System.out.println(words[i]);		
+			}	
+		
+	}
+}	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

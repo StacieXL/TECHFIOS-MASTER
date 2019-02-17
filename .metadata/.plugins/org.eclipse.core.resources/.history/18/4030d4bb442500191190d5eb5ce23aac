@@ -1,0 +1,33 @@
+package topics;
+public class GlobalVar{	
+	static int c = 3;
+	static int d = 4;
+	int e = 5;
+	int f = 6;
+	
+	public static void main(String[] args) { 
+		int a = 1;
+		int b = 2;	
+		
+		sumStatic (a,b);        //local              
+		sumStatic (c,d);        //global static           
+	
+	}
+
+	public static void sumStatic(int num1, int num2) {
+		System.out.println(num1 + num2);
+		GlobalVar object = new GlobalVar ();                 	
+//		System.out.println(object.e + object.f);  //global static
+	}	
+//	public static void sumLocalStatic(int num1, int num2) {
+//		System.out.println(num1 + num2);
+//	}	
+//	
+////	public static void sumGlobalNonStatic(int num1, int num2) {
+////		System.out.println(num1 + num2);
+////	}	
+}
+
+
+
+	

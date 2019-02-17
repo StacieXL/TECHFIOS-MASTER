@@ -1,0 +1,38 @@
+package sundayFeb9topics;
+// "implements"="extends" in class
+public class MyMain implements MyInterface, SecInterface{
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+		
+	}
+
+	@Override
+	public void abc() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void xyz() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int b() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String xyz() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

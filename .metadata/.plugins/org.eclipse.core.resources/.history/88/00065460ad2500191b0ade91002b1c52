@@ -1,0 +1,25 @@
+package homeWorks;
+public class HW4Overload2 {
+
+	public HW4Overload2() {          // default no input
+		System.out.println("Default Constructor");	
+	}	
+	public HW4Overload2(String x) {  //single argument
+		System.out.println("single String constructor = \"" +x+"\"");	
+	}		
+	public HW4Overload2(int x) {
+		System.out.println("single int constructor    = \"" +x+"\"");	
+	}	
+	public HW4Overload2(String x, String y) {  //two argument
+		System.out.println(x+" + "+y);	
+	}	
+	public HW4Overload2(int x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String y, int x) {
+		System.out.println(" ");	
+	}	
+	public HW4Overload2(String y, int x, int z) {
+		System.out.println(" ");		
+	}
+}

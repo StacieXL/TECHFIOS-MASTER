@@ -1,0 +1,52 @@
+package topics;
+public class Class1{
+	public static void main(String[] args) { 		
+	
+		int x = 2;
+		int y = 1;	
+		int z = sum();
+		System.out.println(z);
+// STATIC CALLS STATIC 
+		sum (x,y);                        // 1 way
+		Class1.sum(x, y);                 // 2 way		
+		Class2.sum(x, y);                 // 3 way
+		
+		Class2 customObj = new Class2();  // 4 way	
+		customObj.sum(x,y);	
+				
+// STATIC CALLS NON-STATIC
+		Class1 customObj2 = new Class1();  // 1 way	
+		customObj2.minus(x,y);		
+				
+		Class2 customObj3 = new Class2();  // 2 way	
+		customObj3.minus(x,y);		
+	}	
+	
+	
+	
+	
+	
+	public static int sum(int num1, int num2) {
+		System.out.println(num1 + num2);
+		return 10;
+	}	
+	
+	public void minus(int num1, int num2) {
+		System.out.println(num1 - num2);
+	}
+	
+}
+
+
+
+
+
+
+////CMD input already splitted by space
+//		int[] numbers = new int[args.length]; 
+//		for(int i = 0;i < args.length;i++){
+//			numbers[i] = Integer.parseInt(args[i]);
+//		}
+//		System.out.println(numbers[0]+" + "+numbers[1]+" = "+(numbers[0]+numbers[1]));
+//
+//		

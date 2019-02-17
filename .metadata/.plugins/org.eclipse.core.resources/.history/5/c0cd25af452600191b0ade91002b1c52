@@ -1,0 +1,9 @@
+package topics.accessModifiers;
+public class uninherit {
+	public static void main(String[] args) {
+			AccessModifiers.sumStatic();
+			System.out.println(AccessModifiers.s);
+	}
+
+}
+ 

@@ -1,0 +1,14 @@
+package topics.Pack1;
+public class Pack1Non {
+	public static void main (String[] args){
+
+		Pack1AccessMods.publicFunc();
+//		Pack1AccessMods.privateFunc();	          // private not allow
+	
+//		Pack1AccessMods.privateFunc();		 // not allowable
+		Pack1AccessMods.noIDFunc();
+		Pack1AccessMods.protectedFunc(); 
+		Pack1AccessMods.publicFunc();   
+	}
+}
+ 

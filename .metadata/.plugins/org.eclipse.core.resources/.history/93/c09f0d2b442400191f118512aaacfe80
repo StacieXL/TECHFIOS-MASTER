@@ -1,0 +1,42 @@
+package Topics;
+public class B_IfThenSwitch {
+	public static void main(String[] args) {
+
+// if else basic
+		int time = 22;
+		if (time < 10) {
+		  System.out.println("Good morning.");
+		} else if (time < 20) {
+		  System.out.println("Good day.");
+		} else {
+		  System.out.println("Good evening.");
+		}
+		// Outputs "Good evening."
+	
+		
+// if else shorthand		
+	    double BMI = 20.5;					
+	    String result;					
+	    result = (BMI < 18.5) ? "Under weight"					
+	    		: (BMI >= 18.5 && BMI <= 24.9) ? "Normal weight"					
+	    		: (BMI >= 25   &&  BMI <= 29.9) ? "Over wieght"					
+	    		: (BMI >= 30) ? "Obesity"					
+	    		: " ";					
+	    System.out.println(result);	
+	    
+	    
+// case	    
+	    String day = "Thu";		
+	    switch (day) {		
+	      case "Wed":		
+	        System.out.println("Wednesday");		
+	        break;		
+	      case "Thu":		
+	        System.out.println("Thursday");		
+	        break;		
+	      case "Fri":		
+	        System.out.println("Friday");		
+	        break;	
+	    }
+	}
+}

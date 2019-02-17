@@ -1,0 +1,9 @@
+package homeWorks.HW4AccessModifier;
+public class Access {
+	public static void main(String[] args) {
+
+
+		
+	}
+
+}

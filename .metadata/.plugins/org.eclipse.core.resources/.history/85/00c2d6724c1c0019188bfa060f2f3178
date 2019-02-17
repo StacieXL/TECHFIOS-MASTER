@@ -1,0 +1,24 @@
+package enricoClass1;
+
+public class Homework2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("1");
+		int i = 4;
+		while (i < 17) {
+		  System.out.println(i);
+		  i+=4;
+		  
+		  
+			int i = 5;
+			while (i >= 0) {
+			  System.out.println(i);
+			  i--;
+		  
+		}
+		
+	}
+
+}

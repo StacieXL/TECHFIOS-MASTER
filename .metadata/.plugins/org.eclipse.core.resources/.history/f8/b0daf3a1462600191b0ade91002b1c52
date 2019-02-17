@@ -1,0 +1,12 @@
+package topics.Package2;
+import topics.accessModifiers.*;
+public class Package1Inherit extends Modifier{
+
+	public static void main(String[] args) {
+		Modifier object = new Modifier();
+		object.a;
+ System.out.println(a);
+
+	}
+
+}

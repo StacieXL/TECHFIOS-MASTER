@@ -1,0 +1,67 @@
+1548587831881	Rename type 'C_NestedWhile'
+1548587905030	Rename type 'C_ForWhileLoops'
+1548587967318	Rename type 'Duplicate'
+1548739694155	Delete element
+1548743200920	Rename compilation unit 'C_ForNested.java'
+1548743225397	Rename compilation unit 'C_ForNestedd.java'
+1548751558712	Rename type 'D_Arrays'
+1548751654561	Delete element
+1548803729302	Rename type 'D_ArraysSingleDouble'
+1548803740114	Rename type 'D_ArraytoCharSplit'
+1548803874649	Rename type 'A_ScannerClass'
+1548804175761	Rename type 'C_ForNested'
+1548804274566	Rename type 'C_ForLoops'
+1548804298051	Rename type 'C_WhileNested'
+1548804325834	Rename type 'C_ForWhileBasic'
+1548804348874	Rename type 'C_ForAdvanced'
+1548804372426	Rename type 'C_WhileAdvanced'
+1548804653639	Rename type 'C_WhileLoop3D'
+1548829873810	Rename type 'C_ForWhile1D'
+1548829891397	Rename type 'C_ForLoop2D'
+1548829907377	Rename type 'C_While3D'
+1548837795015	Rename type 'HomeWork2Strings'
+1548840501721	Rename type 'Calculator'
+1548840529524	Rename type 'CalculatorFunctions'
+1548840589034	Rename type 'CalculatorInheritance'
+1548841157977	Rename type 'Calculator1Inheritance'
+1548841173114	Rename type 'Calculator2NonInherit'
+1548879791703	Rename type 'Class2Strings'
+1548879833007	Rename type 'Homework3'
+1548879868244	Rename type 'Palindrome'
+1548879926225	Rename type 'HW3'
+1548879959188	Rename type 'DuplicateChar'
+1548880048112	Rename type 'Calc1Inheritance'
+1548880061925	Rename type 'Calc2NonInherit'
+1548880077042	Rename type 'FunctionsForCalc'
+1548880273040	Rename type 'CurrentClass'
+1548880413396	Rename package 'Topics'
+1548894214179	Rename type 'C_2DForLoop'
+1548894561975	Rename type 'C_2DForLoopMultTable'
+1548894593958	Rename type 'C_2DForLoopXMatrixContinue'
+1548904504830	Rename type 'MainMethod'
+1548904522143	Rename type 'WithoutMain'
+1548924087924	Copy package
+1548924135197	Delete element
+1548924139077	Delete element
+1548924238650	Delete element
+1548924268854	Delete element
+1548924281212	Rename package 'topics2'
+1548924292863	Copy package
+1548924304566	Delete element
+1548924310866	Delete element
+1548924434631	Move compilation unit
+1548924442453	Move compilation unit
+1548924495120	Move compilation units
+1548928755167	Rename compilation unit 'Global.java'
+1548969250260	Rename type 'GlobalVar'
+1548969315245	Move compilation units
+1548969374726	Rename type 'F_MainMethod'
+1548969437764	Move compilation units
+1548969485833	Rename package 'homeWorks.constructOverload'
+1548969537715	Move compilation units
+1548969546194	Delete element
+1548969569769	Rename type 'F_WithoutMain'
+1548969667011	Rename type 'HW4ConstructOverloadMain'
+1548969676586	Rename type 'HW4ConstructOverloadWithoutMain'
+1548971612992	Rename type 'HW4ConstructOverload1'
+1548971672575	Rename type 'HW4ConstructOverload2'

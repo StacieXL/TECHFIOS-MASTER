@@ -1,0 +1,53 @@
+package Topics;
+public class D_ArraytoCharSplit {
+	public static void main(String[] args) {
+	
+		String string ="How are you doing?";
+		char[] b = string.toCharArray();
+		System.out.println(b);
+		System.out.println("Length of charArray = "+b.length);
+		for (int i=0;i<b.length;i++) {
+			System.out.println("Index["+i+"] = " +b[i]);
+		}
+		
+		
+		System.out.println("===========");
+		String[] splitArray = string.split(" ");	
+		System.out.println("Length of splitArray = "+splitArray.length);
+		for (int j=0;j<splitArray.length;j++) {
+			System.out.println("Index["+j+"] = " +splitArray[j]);
+		}
+		
+		
+		System.out.println("===========");
+		String[] split = string.split(" ");	
+		System.out.println("Length of splitArray = "+split.length);
+		for (int k=0;k<split.length;k++) {
+			String[] splitAgain = split[k].split("o");	
+			System.out.println("Length of splitAgain["+k+"] = "+splitAgain.length);
+			for (int l=0;l<splitAgain.length;l++) {
+				System.out.println("Index["+l+"] = " +splitAgain[l]);
+			}
+		}
+//		for (String item:split) {
+//			for (String item:splitAgain) {				
+//			System.out.println(item);
+//			}
+//		}				
+		
+		System.out.println();
+		for (int m=0;m<split.length;m++) {
+			for (String item: split[m].split("o")) {
+//				for (String elem: split[m].split("o")) {
+					System.out.print(item+ " ");
+//				}
+			}
+		}
+		
+//		System.out.println("===========");
+//		for (String item:split) {
+//			System.out.println(item);
+//		}
+	}	
+}
+

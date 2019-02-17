@@ -1,0 +1,32 @@
+package Topics;
+import java.util.Scanner;
+ 
+class Palindrome
+{
+   public static void main(String args[])
+   {
+      String original, reverse = ""; // Objects of String class
+      Scanner in = new Scanner(System.in);
+     
+      System.out.println("Enter a string to check if it is a palindrome");
+      original = in.nextLine();
+     
+      int length = original.length();
+     
+      for (int i = length - 1; i >= 0; i--)
+         reverse = reverse + original.charAt(i);
+      System.out.println(reverse);
+         
+      if (original.equals(reverse)) {
+    	  System.out.println(original.equals(reverse)+ "The string is a palindrome.");
+    	  System.out.println(original.compareTo(reverse)+ "The string is a palindrome.");
+//      	  System.out.println((compare(reverse,original))+ "The string is a palindrome.");
+    	  System.out.println((original ==reverse)+ "The string is a palindrome.");
+      	}
+      
+      else
+        	System.out.println(original.equals(reverse)+ "The string is a palindrome.");
+//         System.out.println(original.equals(reverse)+"The string isn't a palindrome.");
+         
+   }
+}   

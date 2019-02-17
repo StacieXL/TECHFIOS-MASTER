@@ -1,0 +1,11 @@
+package topics.AccessModsPack1;
+public class Pack1NonInherit {
+	public static void main (String[] args){
+	
+//		Pack1AccessMods.privateFunc();		 // not allowable
+		Pack1AccessMods.noIDFunc();
+		Pack1AccessMods.protectedFunc(); 
+		Pack1AccessMods.publicFunc();   
+	}
+}
+ 

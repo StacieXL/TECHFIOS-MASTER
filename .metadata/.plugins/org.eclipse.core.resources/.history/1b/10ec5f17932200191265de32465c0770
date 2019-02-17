@@ -1,0 +1,13 @@
+package Topics;
+
+public class Sandbox2 {
+	public static void main(String[] args) {
+		int age =18;
+		while (1==1) {
+			System.out.println("something");
+			}
+		
+
+	}}
+
+	

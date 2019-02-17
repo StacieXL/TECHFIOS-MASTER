@@ -1,0 +1,7 @@
+package Topics;
+public class DifferentClass {
+	
+	public static void DiffStatFunc(int x, int y) {
+		System.out.println(x+y);
+	}
+}

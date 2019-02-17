@@ -1,0 +1,12 @@
+package topics.DiffPack;
+import topics.accessModifiers.*;
+public class DiffPackInherit extends Modifier{
+
+	public static void main(String[] args) {
+		Modifier object = new Modifier();
+		object.a;
+ System.out.println(a);
+
+	}
+
+}

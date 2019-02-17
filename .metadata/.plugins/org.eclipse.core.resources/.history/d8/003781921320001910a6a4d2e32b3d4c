@@ -1,0 +1,27 @@
+//package Topics;
+//public class Function {
+//	public static void addition () {
+//		System.out.println("addition");	
+//	}
+//	public static void main() {
+//		addition ();
+//
+//	}	
+//	
+//	
+//	
+//	public static void subtraction () {
+//		System.out.println("addition");
+//	}
+//
+//}
+
+public class Function {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}

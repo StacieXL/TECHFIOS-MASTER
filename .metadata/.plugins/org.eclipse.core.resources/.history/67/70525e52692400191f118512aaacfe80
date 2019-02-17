@@ -1,0 +1,26 @@
+package Topics;
+public class CurrentClass {
+	public static void main(String[] args) {
+
+//		String[] numberStrs = args.split(" ");
+//		int[] numbers = new int[numberStrs.length];
+//		for(int i = 0;i < numberStrs.length;i++){
+//			numbers[i] = Integer.parseInt(numberStrs[i]);
+//		}
+		
+		int x,y;
+		x = 2;
+		y = 1;		
+		staticFunction(x,y);
+		CurrentClass.staticFunction(x,y);
+		
+		DifferentClass customObj = new DifferentClass();
+		customObj.staticFunction(x,y);
+		DifferentClass.staticFunction(x,y);
+		System.out.println(args[0]+args[1]+2);
+	}
+	public static void staticFunction(int x, int y) {
+		System.out.println(x+y);
+	}	
+}
+

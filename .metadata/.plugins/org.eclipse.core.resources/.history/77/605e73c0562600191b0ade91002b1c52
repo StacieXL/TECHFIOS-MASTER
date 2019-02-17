@@ -1,0 +1,19 @@
+package topics.Pack2;
+import static topics.Pack1.Pack1AccessMods.noIDFunc;
+
+import topics.Pack1.Pack1AccessMods;
+	public class Pack2Inherit extends Pack1AccessMods{
+		public static void main (String[] args){
+//			System.out.println(statPrivate);         // not allowed
+//			System.out.println(statDefault);         // not allowed
+			System.out.println(statProtected);
+			System.out.println(statPublic);	
+			System.out.println();
+			
+//			privateFunc();		 // not allowable
+			noIDFunc();			// not allowable
+			protectedFunc(); 
+			publicFunc(); 
+		}
+
+}

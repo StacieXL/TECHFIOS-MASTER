@@ -1,0 +1,12 @@
+package homeWorks.HW4AccessModifier;
+public class inherit extends Modifier{
+	public static void main(String[] args) {
+		
+		sumStatic();
+		Modifier object =new Modifier();
+		System.out.println(object.b);
+
+	} 
+
+}
+ 

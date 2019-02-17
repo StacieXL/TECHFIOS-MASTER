@@ -1,0 +1,19 @@
+package topics;
+public class F_WithoutMain {
+
+	public F_WithoutMain() {
+		System.out.println(" ");	
+	}	
+	public static String Func2() {
+		System.out.println(" ");
+		return "String";
+	}	
+	public static void Func3() {
+		System.out.println(" ");	
+	}	
+	public static void diffPLusFunc(int x, int y) {
+		System.out.println(x+y);
+	}
+	
+
+}

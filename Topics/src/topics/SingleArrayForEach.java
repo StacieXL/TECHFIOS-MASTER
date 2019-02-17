@@ -1,0 +1,44 @@
+package topics;
+
+public class SingleArrayForEach {
+
+	public static void main(String[] args) {
+		// 
+		
+		//Create a single array-Note:Array indexes start with 0
+		
+		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		System.out.println(cars[2]);
+	
+	//Change an Array Element
+		
+		String[] models = {"Volvo", "BMW", "Ford", "Mazda"};
+		models[0] = "Nissan";
+		models[0] = "Niss";
+		System.out.println(models[0]);
+	
+	//Loop Through an Array
+		for (int i = 0; i < cars.length; i++) {
+		  System.out.println(cars[i]);
+		}
+	
+		System.out.println("Next Technique");
+		
+		
+	//Loop Through an Array-FOR.EACH LOOP method
+		for (String i : models) {
+			  System.out.println(i);
+		}	
+	
+	
+	
+	
+	}
+}
+		
+			
+	
+	
+	
+
+

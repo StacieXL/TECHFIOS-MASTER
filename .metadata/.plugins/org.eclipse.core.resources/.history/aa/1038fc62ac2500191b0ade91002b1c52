@@ -1,0 +1,9 @@
+package homeWorks;
+public class HW4Overload1 {
+	public static void main(String[] args) {
+		HW4Overload2 object = new HW4Overload2();
+//	System.out.println(object.x);
+		
+
+	}
+}

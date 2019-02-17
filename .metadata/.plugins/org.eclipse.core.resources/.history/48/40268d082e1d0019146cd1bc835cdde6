@@ -1,0 +1,53 @@
+package sandBox;
+public class Arrays {
+	public static void main(String[] args) {
+
+		
+//	    String[] carNames = {"Volvo", "BMW", "Ford", "Mazda"};
+//	    System.out.println(carNames[2]);
+//	    
+//	    
+//	    String carNames2 [] = new String [4];		
+//	    carNames2 [0] = "Volvo";		
+//	    carNames2 [1] = "BMW";		
+//	    carNames2 [2] = "Ford";		
+//	    carNames2 [3] = "Mazda";	
+////	    System.out.println(carNames2[2]);		
+//	    
+//	    for(int i = 0; i < carNames2.length; i+=4) {		
+//	    	System.out.println(carNames2[0]);		
+//	    	}
+	    
+	    
+	    String carNames3 [][]= new String [4][2];		
+	    carNames3 [0][0] = "Volvo";		
+	    carNames3 [1][0] = "BMW";		
+	    carNames3 [2][0] = "Ford";		
+	    carNames3 [3][0] = "Mazda";
+	            
+	    carNames3 [0][1] = "yellow";		
+	    carNames3 [1][1] = "red";		
+	    carNames3 [2][1] = "red";		
+	    carNames3 [3][1] = "yellow";
+	    
+	        
+//	    System.out.println(carNames3[2][1]);
+	    
+//	    for(int i = 0; i < carNames3.length; i++) {
+//	    	for(int j= 0; j < carNames3[i].length; j++)
+//    	System.out.println(carNames3[i][j]);		
+//    	}
+	    
+	    int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+	    for (int i = 0; i < myNumbers.length; ++i) {
+	      for(int j = 0; j < myNumbers[0].length; ++j) {
+	        System.out.println(myNumbers[i][j]);
+	      }
+	    }
+	
+
+	    
+		
+	}
+
+}

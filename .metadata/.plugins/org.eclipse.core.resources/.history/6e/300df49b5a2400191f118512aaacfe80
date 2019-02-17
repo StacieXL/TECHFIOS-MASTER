@@ -1,0 +1,11 @@
+package Topics;
+public class CurrentClass {
+	public static void main(String[] args) {
+		staticFunction();
+		CurrentClass.staticFunction();
+	
+	}
+	public static void staticFunction() {
+		System.out.println("Static");
+	}	
+}

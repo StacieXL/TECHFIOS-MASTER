@@ -1,0 +1,16 @@
+package sundayFeb9topics;
+
+public class AbstractionMyMain {
+
+	public static void main(String[] args) {
+
+	}
+	
+	void sample() {
+		System.out.println("Sample");
+	}
+	
+	//regular class cant have abstract method
+	}
+
+

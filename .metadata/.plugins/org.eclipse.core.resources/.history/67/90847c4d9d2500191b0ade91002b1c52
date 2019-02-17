@@ -1,0 +1,9 @@
+package topics;
+public class F_MainMethod {
+	public static void main(String[] args) {
+		F_WithoutMain object = new F_WithoutMain();
+		
+
+	}
+
+}

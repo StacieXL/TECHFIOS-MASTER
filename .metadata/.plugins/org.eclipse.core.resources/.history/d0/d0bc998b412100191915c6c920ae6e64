@@ -1,0 +1,31 @@
+package homeWorks;
+import java.util.Scanner;
+public class MyPalindrome {
+	public static void main(String[] args) {
+		System.out.println();
+		System.out.println("Type something :");	
+		Scanner userInput = new Scanner (System.in);
+		String userValue = userInput.nextLine();  
+		
+	  String y =""; //empty string not the same as null
+		
+		for (int x = userValue.length()-1; x >=0; x--) 
+			y = y+userValue.charAt(x); //without empty string, this would not work
+		    if (userValue.equals(y)) {
+		      System.out.println("It is Palidrome");
+			    } else{
+			    	System.out.println("It is not Palidrome");
+			    }
+
+		}	
+//	    if (z==userValue) {
+//		      System.out.println("It is Palidrome");
+//		    } else {
+//		      System.out.println("It is not Palidrome");
+//		    }
+//	
+
+
+	}
+
+

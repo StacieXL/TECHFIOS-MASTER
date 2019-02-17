@@ -1,0 +1,30 @@
+package externalData;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class RWExcel {
+	//Create Workbook
+	public static void main(String[] args) {
+		XSSFWorkbook Book = new XSSFWorkbook();
+		
+		
+	//Create Worksheet
+		
+		XSSFSheet Sheet = Book.createSheet();  //To make "Sheet" belong to "Book"
+		
+	//Create First Row . Each steps will need to import its Apache Poi
+		Row row0 = Sheet.createRow(0);
+		Row row1 = Sheet.createRow(1);
+		Row row2 = Sheet.createRow(2);
+		
+		Cell cell0 = row0.createCell(0);
+		
+		
+		
+		
+	}
+
+}

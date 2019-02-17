@@ -1,0 +1,12 @@
+package Topics;
+
+public class Palindromeh {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str = "abcdefg";
+				str.length ();
+	}
+
+}

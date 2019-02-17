@@ -1,0 +1,20 @@
+package homeWorks;
+import topics.*;
+public class HW4Overload1 {
+	
+	public static void main(String[] args) {
+		HW4Overload2 object1 = new HW4Overload2();
+		HW4Overload2 object2 = new HW4Overload2("abc");
+		HW4Overload2 object3 = new HW4Overload2(5);
+		HW4Overload2 object4 = new HW4Overload2("Minh","Stacie");
+		HW4Overload2 object5 = new HW4Overload2(1, "We are");
+		HW4Overload2 object6 = new HW4Overload2("We are", 1);  // reverse parameter sequence is OK
+		HW4Overload2 object7 = new HW4Overload2("ABC",123,456);
+		System.out.println("=================");
+		System.out.println();
+
+// Constructor Chain
+		HW4Overload2Chain object8  = new HW4Overload2Chain();		
+	}
+}
+ 

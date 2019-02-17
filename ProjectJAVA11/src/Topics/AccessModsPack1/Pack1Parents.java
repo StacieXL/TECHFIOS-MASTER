@@ -1,0 +1,60 @@
+package topics.AccessModsPack1;
+public class Pack1Parents {
+	private int				privateVar   = 1;			
+	int 					defaultVar   = 2;
+	protected int 			protectedVar = 3;
+	public 	int 			publicVar    = 4;
+	
+	static private int		statPrivate   = 5;			
+	static int 				statDefault   = 6;
+	static protected int 	statProtected = 7;
+	static public 	int 	statPublic    = 8;
+		                    
+	
+	public static void main (String[] args){
+		System.out.println("Global Variables");
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+		
+		privateFunc();	
+		noIDFunc();
+		protectedFunc();
+		publicFunc();
+	}
+			
+	private static void privateFunc() {
+		System.out.println("Private Function");
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+	}	
+	static void noIDFunc() {
+		System.out.println("Default Function");
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+	}
+	protected static void protectedFunc() {
+		System.out.println("Protected Function");
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+	}
+	public static void publicFunc() {
+		System.out.println("Public Function");
+		System.out.println(statPrivate);
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+	}
+}

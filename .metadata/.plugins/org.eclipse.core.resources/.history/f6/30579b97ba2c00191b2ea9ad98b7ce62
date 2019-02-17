@@ -1,0 +1,22 @@
+package sundayFeb9topics;
+
+public class AbstractionMySecond extends AbstractionMyMain{
+
+	public static void main(String[] args) {
+		AbstractionMySecond obj= new AbstractionMySecond();
+		obj.sum(4, 3);
+		
+		
+		
+		
+	}
+
+	@Override
+	void sample1() {
+		
+	}
+
+	
+	
+	
+}

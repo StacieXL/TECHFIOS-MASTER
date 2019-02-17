@@ -1,0 +1,16 @@
+package topics.Pack1;
+
+public class Pack1Inherit extends Pack1Mods{
+	public static void main (String[] args){
+//		System.out.println(statPrivate);         // private access not allowed
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+		
+		publicFunc();
+//		privateFunc();	
+	}
+
+}
+ 

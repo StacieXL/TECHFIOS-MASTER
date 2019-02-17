@@ -1,0 +1,31 @@
+package Topics;
+
+import java.util.Scanner;
+
+public class IfThen {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("Enter military time (from 1-24)");
+		Scanner input = new Scanner (System.in);
+		int userValue = input.nextInt(); 
+		
+	    if (userValue >24) {
+	    	System.out.println("Out of range, try again");
+	    } else {	
+		    	String printOut;
+		        printOut = (userValue < 18) ? "Good day." : "Good evening.";
+		        System.out.println(printOut);
+	    }
+	    
+	    
+	    int time = 20;
+	    if (time < 18) {
+	      System.out.println("Good day.");
+	    } else {
+	      System.out.println("Good evening.");
+	    }
+
+
+}
+}

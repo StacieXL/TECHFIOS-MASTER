@@ -1,0 +1,7 @@
+package Topics;
+public class DifferentClass {
+	
+	public static void staticFunction() {
+		System.out.println("static");	
+	}
+}

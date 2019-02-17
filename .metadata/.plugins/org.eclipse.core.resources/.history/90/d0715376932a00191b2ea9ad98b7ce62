@@ -1,0 +1,16 @@
+package topics.ConstructorDemo;
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("ID:   NAME:   SCHOOL:");
+		
+		Other object = new Other (101, "Tom");
+		Other Mike =   new Other (102, "Mike");
+		Other Stacie = new Other (103, "Stacie");
+		Other Testing = new Other (34, 1985);
+		object.display();
+		Mike. display();
+	 	Stacie.display();
+		Testing.personalinfo();
+		
+	}
+} 

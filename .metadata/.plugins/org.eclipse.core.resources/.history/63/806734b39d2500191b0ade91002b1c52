@@ -1,0 +1,22 @@
+package homeWorks.constructOverload;
+public class F_WithoutMain {
+
+	public F_WithoutMain() {
+		System.out.println(" ");	
+	}	
+	public F_WithoutMain(String x) {
+		System.out.println(" ");	
+	}		
+	public F_WithoutMain(int x) {
+		System.out.println(" ");	
+	}	
+	public F_WithoutMain(String x, String y) {
+		System.out.println(" ");	
+	}	
+	public F_WithoutMain(int x, String y) {
+		System.out.println(" ");	
+	}	
+	public F_WithoutMain(String y, int x) {
+		System.out.println(" ");	
+	}	
+}

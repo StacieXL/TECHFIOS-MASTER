@@ -1,0 +1,44 @@
+package Topics;
+import java.util.Scanner;
+public class C_While3D {
+	public static void main(String[] args) {
+		
+		System.out.println("This is an 18+ event");
+		System.out.println("Enter your age to get in:");	
+		Scanner input = new Scanner (System.in);
+		int age = input.nextInt(); 
+		
+		while (age>0) {  //infinite loop
+			while (age >=18) {
+				System.out.println("Current Age = "+age+".  Congrats! You are in ");
+				System.out.println();
+				System.out.println("Enter Next customer age:");	
+				input = new Scanner (System.in);
+				age = input.nextInt(); 
+			}		
+			while (age<18) {	
+				if (age ==17) {age =18;} // in lieu of continue does not work with age++
+				System.out.println("  Current age = " +age+ ".  Sorry, You can't get in");
+				age++;
+
+				while (age<13) {    //too young
+					System.out.println("Next year age = "+ age+".  You are too young");
+					age++;
+				}
+				while (age>=13 && age <=17) { //teenager
+					if (age ==17) {age =18;}  // in lieu of continue
+					System.out.println("Next year age = "+age+".  You are a teenager");
+					age++;		
+				}
+				while (age>=18) {  // prevent next 18 show as current 18
+					System.out.println("Next year age = "+age+".  Congrats! You are in");
+					System.out.println();
+					System.out.println("Enter Next customer age:");	
+					input = new Scanner (System.in);
+					age = input.nextInt();	
+				break;  //prevent current 18 show as next 18
+				}					
+			}			
+		}	
+	}
+}

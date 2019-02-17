@@ -1,0 +1,10 @@
+package topics.Pack2;
+
+public class Package2NonInherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

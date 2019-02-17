@@ -1,0 +1,9 @@
+package homeWorks;
+public class HW4ConstructOverload1 {
+	public static void main(String[] args) {
+		HW4ConstructOverloadWithoutMain object = new HW4ConstructOverloadWithoutMain();
+		
+
+	}
+
+}

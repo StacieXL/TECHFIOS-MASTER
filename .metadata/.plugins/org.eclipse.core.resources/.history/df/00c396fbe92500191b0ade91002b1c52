@@ -1,0 +1,18 @@
+package homeWorks.HW4AccessModifier;
+public class Modifier {
+		 static int s = 0;
+		private int	a = 1;
+				int b = 2;
+	  protected int c = 3;
+		 public int d = 4;
+		 
+		 
+		 public void sum () {
+			 System.out.println(10+10);
+			 System.out.println(b+b);
+		 }
+		 public static void sumStatic() {
+			 System.out.println(10+10);
+		 }
+		 
+}

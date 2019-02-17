@@ -1,0 +1,27 @@
+package Topics;
+public class Strings {
+	public static void main(String[] args) {
+		String str = "ABC EF";	
+		System.out.println("String str =          ---> \"ABC EF\"");
+		System.out.println();
+		System.out.println("str.length()          ---> " + str.length());
+		System.out.println("str.indexOf('A')      ---> " + str.indexOf('A'));	
+		System.out.println("str.charAt(0)         ---> " + str.charAt(0));	
+		System.out.println("str.charAt(str.length()-1) ---> "+ str.charAt(str.length()-1)+" (last index [5])");
+		System.out.println("str.replace(\" \", \"\")  ---> " + str.replace(" ", ""));	
+		System.out.println("str.substring (1)     ---> " + str.substring (1  ));
+		System.out.println("str.substring (1,3)   ---> " + str.substring (1,3) + "Start, cutoff");
+		System.out.println("str.contains(\"abc\")   ---> " + str.contains("abc"));
+		System.out.println("str.startsWith(\"ABC\") ---> " + str.startsWith("ABC"));
+		System.out.println("str.isEmpty();	" + str.isEmpty());	
+		System.out.println();
+		System.out.println("\"abc\".compareTo(\"abc\") --> " + "abc".compareTo("abc")+" (ASCII)");	
+		System.out.println("\"abc\".compareTo(\"a\")   --> " + "abc".compareTo("a"  ));	
+		System.out.println("\"abc\".compareTo(\"Abc\") --> " + "abc".compareTo("Abc"));
+		System.out.println("\"abc\".compareToIgnoreCase(\"Abc\") --> " + "abc".compareToIgnoreCase("Abc"));
+				
+	
+
+	}
+
+}

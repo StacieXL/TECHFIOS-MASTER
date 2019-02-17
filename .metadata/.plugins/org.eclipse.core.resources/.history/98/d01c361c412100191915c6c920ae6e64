@@ -1,0 +1,34 @@
+package homeWorks;
+import java.util.Scanner;
+public class MyPalindrome {
+	public static void main(String[] args) {
+		System.out.println();
+		System.out.println("Type something :");	
+		Scanner userInput = new Scanner (System.in);
+		String userValue = userInput.nextLine();  
+	  String zz;
+	  char y;
+		
+		for (int x = userValue.length()-1; x >=0; x--) 
+			y = userValue.charAt(x);
+		  String z =userValue.charAt(x).Character.toString();
+//		    z = Character.toString(y);
+		    zz = userValue.toString();
+		    if (z.equals(zz)) {
+		      System.out.println("It is Palidrome");
+			    } else{
+			    	System.out.println("It is not Palidrome");
+			    }
+
+		}	
+//	    if (z==userValue) {
+//		      System.out.println("It is Palidrome");
+//		    } else {
+//		      System.out.println("It is not Palidrome");
+//		    }
+//	
+
+
+	}
+
+

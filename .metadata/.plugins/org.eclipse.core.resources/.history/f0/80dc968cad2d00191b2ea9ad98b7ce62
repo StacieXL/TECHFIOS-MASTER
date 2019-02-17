@@ -1,0 +1,41 @@
+package externalData;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+
+public class WriteToTextFile {
+
+
+	public static void main(String[] args) throws FileNotFoundException,IOException {
+		String path = "C:\\Users\\Stacie\\eclipse-workspace\\myWriteData.html";		
+		File f = new File(path);
+		FileWriter fw = new FileWriter (f, true);  //true = appendix= Add-on
+		BufferedWriter bw = new BufferedWriter (fw);
+		
+		bw.write(""
+				+ "<html>"
+				+ "<head><title>ABC & EFG &ENF</title></head>"
+				+ "<body><center>Hello Statcie & Minhbabe</center></body>"
+				+ "</html>"); 
+		bw.newLine();
+		bw.close ();
+	//				// way 1
+	//				System.out.println(br.readLine());
+	//				System.out.println(br.readLine());
+	//				System.out.println(br.readLine());
+	//				System.out.println(br.lines());
+		
+	//
+	//				// way 2
+	//				String line = null;
+	//				while ((line=br.readLine()) != null){
+	//					System.out.println(line);
+//					
+		
+	} 
+}

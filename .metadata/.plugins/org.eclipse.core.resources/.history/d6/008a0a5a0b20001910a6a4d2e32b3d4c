@@ -1,0 +1,13 @@
+package Topics;
+public class Function4 {
+	public static void main() {
+		addition ();
+		subtraction2 ();
+	}	
+		public static addition {
+		System.out.println("addition");
+		}
+
+	
+
+}

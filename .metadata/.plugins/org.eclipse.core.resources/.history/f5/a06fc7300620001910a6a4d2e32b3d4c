@@ -1,0 +1,25 @@
+package Topics;
+import java.util.Scanner;
+public class Calculator {
+	public static void main(String[] args) {
+//Plan:
+//3 scanners + parameter check
+//operator if then
+// 1 function for each operator, passing scanner to arguments
+		
+		System.out.println("Enter first number");	
+		Scanner number1 = new Scanner (System.in); 
+//		System.out.println(firstNumber.nextInt());
+		
+		System.out.println("Enter an operator (+ - x /");	
+		Scanner operator = new Scanner (System.in);
+//		System.out.println(operatorInput.nextLine());
+		
+		System.out.println("Enter second number");	
+		Scanner number2 = new Scanner (System.in); 
+//		System.out.println(secondNumber.nextInt());
+		
+		System.out.println(number1+" "+operator+" "+number2+" =");
+
+	}
+}

@@ -1,0 +1,12 @@
+package topics.Inheritance;
+import accessModifiers.*;
+public class subclass {
+
+	public static void main(String[] args) {
+		Modifier object = new Modifier();
+		object.b
+System.out.println(s);
+
+	}
+
+}

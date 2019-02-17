@@ -1,0 +1,22 @@
+package topics.Pack1;
+
+import static topics.Pack1.Pack1AccessMods.privateFunc;
+import static topics.Pack1.Pack1AccessMods.protectedFunc;
+import static topics.Pack1.Pack1AccessMods.publicFunc;
+
+public class Pack1Inherit extends Pack1AccessMods{
+	public static void main (String[] args){
+//		System.out.println(statPrivate);         // not allowable
+		System.out.println(statDefault);
+		System.out.println(statProtected);
+		System.out.println(statPublic);	
+		System.out.println();
+		
+		privateFunc();	 // not allowable
+		publicFunc();    // not allowable
+		noIDFunc();
+		protectedFunc(); // not allowable
+	}
+
+}
+ 

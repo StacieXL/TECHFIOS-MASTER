@@ -1,0 +1,67 @@
+package homeWorks;
+public class HW3Duplicate {
+	public static void main(String[] args) {
+		String str = "Coolbb";
+		System.out.println("Original String  = "+ str);
+		System.out.println("Lenght of string = "+ str.length());
+		System.out.println();
+		
+		System.out.println("After converted to charArray[]:");
+		char[] charArray = str.toCharArray();
+		for (int i = 0; i <str.length(); i++) {
+			System.out.println("i"+i+" = "+charArray[i]+"  ");
+		}
+		System.out.println();
+
+		System.out.println("Visualize this in your head:");		
+		System.out.println("        j0 j1 j2 j3 j++");
+		for (int i = 0; i <str.length(); i++) {
+			System.out.print("i"+i+" = "+charArray[i]+"   ");
+			for (int j = 0; j <str.length(); j++) {
+				System.out.print(charArray[j]+"  ");
+			}
+			System.out.println();		
+		}		
+		System.out.println("Compare (i0 == j1++), (i1 == j2++),...");		
+		System.out.println("If i0 = j1, print j1");	
+		System.out.println();
+		
+		
+		
+		System.out.println("Duplicate Characters are:");
+//		int count = 0;
+		for (int i = 0; i < str.length(); i++) {  //go down the rows 9 times 1 by 1
+			for (int j = i + 1; j < str.length(); j++) {  //repeat j inside each row 9X
+				if (charArray[i] == charArray[j]) {
+					System.out.print(charArray[j]+"  ");
+//					count++;
+//					break;
+			    }
+			}
+		}
+		
+	
+		// if (row[0] == charArray[0]) { print [0]}
+		// if (row[0] == charArray[1]) { print [1]}
+		// if (row[0] == charArray[2]) { print [2]}
+		// if (row[0] == charArray[3]) { print [3]}
+		// if (row[0] == charArray[4]) { print [4]}
+		// if (row[0] == charArray[0]) { print [0]}
+		// if (row[0] == charArray[0]) { print [0]}
+		// if (row[0] == charArray[0]) { print [0]}
+	         
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	}
+}

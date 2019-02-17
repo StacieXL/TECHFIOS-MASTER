@@ -1,0 +1,38 @@
+package homeWorks;
+import java.util.Scanner; 
+public class Palindrome{
+	public static void main(String args[]){
+		
+		System.out.println("Type something:");
+		Scanner userInput = new Scanner (System.in);
+		String originalValue = userInput.nextLine(); 
+		
+// reverse the tring	    
+	    String reverse = "";
+	    for (int i = originalValue.length()-1; i >= 0; i--) {
+	    	reverse = reverse + originalValue.charAt(i);            
+	    }
+	    System.out.println("The reverse is: "+reverse);
+	       
+	    	    
+// Compare original and reverse with equals()    
+	    if (originalValue.equals(reverse)) {
+	    	System.out.println("With equals()    method = " + originalValue.equals(reverse)   
+	    	+ ".  It is a palindrome.");
+	    	// System.out.println(compare(reverse,original)   + "The string is a palindrome.");
+	    }	else {
+	    	System.out.println("With equals()    method = " + originalValue.equals(reverse)   
+	    	+ ".  It is NOT a palindrome.");
+	    }
+	    
+	    
+// Compare original and reverse with compareTo()
+	    if (originalValue.compareTo(reverse)==0) {
+	   	  System.out.println("With compareTo() method = "   + originalValue.compareTo(reverse)
+	   	  	+ ".     It is a palindrome.");         
+	    }	else {
+	    	System.out.println("With compareTo() method = " + originalValue.compareTo(reverse)   
+	    	+ ".     It is NOT a palindrome.");
+	    }
+    } 
+} 

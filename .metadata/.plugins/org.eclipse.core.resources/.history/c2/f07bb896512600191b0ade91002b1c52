@@ -1,0 +1,12 @@
+package topics.Pack1;
+public class Pack1Inherit extends Pack1Mods{
+	public static void main(String[] args) {
+		
+		sumStatic();
+		Pack1Mods object =new Pack1Mods();
+		System.out.println(object.b);
+
+	} 
+
+}
+ 

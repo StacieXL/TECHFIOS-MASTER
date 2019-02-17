@@ -1,0 +1,15 @@
+package homeWorks;
+public class HW4Overload1 {
+	public static void main(String[] args) {
+		HW4Overload2 object = new HW4Overload2();
+		HW4Overload2 object1 = new HW4Overload2("abc");
+		HW4Overload2 object2 = new HW4Overload2(5);
+		HW4Overload2 object3 = new HW4Overload2("Minh","Stacie");
+		HW4Overload2 object4 = new HW4Overload2("abc");
+		HW4Overload2 object5 = new HW4Overload2("abc");
+		HW4Overload2 object6 = new HW4Overload2("abc");
+//	System.out.println(object.x);
+		
+
+	}
+}

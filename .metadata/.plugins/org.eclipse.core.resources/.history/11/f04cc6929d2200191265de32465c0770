@@ -1,0 +1,53 @@
+package Topics;
+import java.util.Scanner;
+public class C_WhileNested {
+	public static void main(String[] args) {
+		
+		System.out.println("This is an 18+ event");
+		System.out.println("Enter your age to buy ticket:");	
+		Scanner input = new Scanner (System.in);
+		int age = input.nextInt(); 
+		
+		while (1==1) {  //infinite loop
+			while (age >=18) {
+				System.out.println("Current Age = "+age+".  Congrats! We can sell you tickets");
+				System.out.println();
+				System.out.println("Enter Next customer age:");	
+				input = new Scanner (System.in);
+				age = input.nextInt(); 
+			}			
+			while (age<18) {
+				System.out.println("  Current age = " +age+ ".  Sorry, we cannot sell to under 18");
+				age++;
+				
+				while (age <18) {
+					while (age<13) {    //too young
+						System.out.println("Next year age = "+ age+".  You are still too young");
+						age++;
+					}
+					while (age>=13 && age <=17) { //teenager
+						System.out.println("Next year age = "+age+".  You are a teenager and still under 18");
+						age++;			
+					}
+					while (age>=18) {  // prevent next year 18 show as current 18
+						System.out.println("Next year age = "+age+".  Congrats! We can sell you tickets");
+						System.out.println();
+						System.out.println("Enter Next customer age:");	
+						input = new Scanner (System.in);
+						age = input.nextInt();	
+					break;  //prevent next current 18 show as next year 18
+					}
+//				break;
+				}		
+//				while (age>=18) {  // prevent next year 18 show as current 18
+//					System.out.println("Next year age = "+age+".  Congrats! We can sell you tickets");
+//					System.out.println();
+//					System.out.println("Enter Next customer age:");	
+//					input = new Scanner (System.in);
+//					age = input.nextInt();	
+//					break;  //prevent next current 18 show as next year 18
+//				}
+			}	
+		}	
+	}
+}

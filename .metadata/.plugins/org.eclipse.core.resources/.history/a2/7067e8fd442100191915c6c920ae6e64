@@ -1,0 +1,32 @@
+package homeWorks;
+import java.util.Scanner;
+public class MyPalindrome {
+	public static void main(String[] args) {
+		System.out.println();
+		System.out.println("Type something :");	
+		Scanner userInput = new Scanner (System.in);
+		String userValue = userInput.nextLine();  
+		
+		String y =""; // why must define empty string? not the same as null
+		
+		for (int i = userValue.length()-1; i >=0; i--) 
+			y = y + userValue.charAt(i); // must y=y+ why?
+		System.out.println(y);
+		    if (userValue.equals(y)) {
+		    	System.out.println("It is Palidrome");
+			    } else{
+			    	System.out.println("It is not Palidrome");
+			    }
+
+		}	
+//	    if (z==userValue) {
+//		      System.out.println("It is Palidrome");
+//		    } else {
+//		      System.out.println("It is not Palidrome");
+//		    }
+//	
+
+
+	}
+
+

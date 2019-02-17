@@ -1,0 +1,39 @@
+package Topics;
+import java.util.Scanner;
+public class ScannerCalc {
+	public static void main(String[] args) {
+		System.out.println("Enter a number:");	
+		Scanner input1 = new Scanner (System.in); 
+		double number1 = input1.nextDouble();
+		
+		System.out.println();
+		System.out.println("Enter an operator (+ - x /):");	
+		Scanner input2 = new Scanner (System.in);
+		char operator = input2.next().charAt(0);
+		
+		System.out.println();
+		System.out.println("Enter another number:");	
+		Scanner input3 = new Scanner (System.in); 
+		double number2 = input3.nextDouble();
+		
+		System.out.println();
+		System.out.println("Your final calculation is:");			
+	
+		
+		Functions F = new Functions ();
+	    switch (operator) {		
+	    	case '+':		
+	    		F.addition 		(number1, number2);	
+	    		break;		
+	    	case '-':		
+		  		F.subtraction 	(number1, number2);	
+		  		break;		
+	    	case 'x':		
+		  		F.multiply 		(number1, number2);
+		  		break;
+	    	case '/':		
+		  		F.divide 		(number1, number2);	
+		  		break;
+	    }
+	}
+}

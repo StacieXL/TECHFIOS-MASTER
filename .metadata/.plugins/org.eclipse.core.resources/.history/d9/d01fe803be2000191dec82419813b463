@@ -1,0 +1,38 @@
+// 1.print 1,4,8,12,16...
+// 2.Given N ----print backwards to 0
+// 3.Build a calculator (+ - x /)
+//   use if-else switch
+//   use method for each operation
+// 4.Ask user input and print in palindrome (reverse)
+// 5.Ask for sentence- print duplicate character    
+package homeWorks;
+import java.util.Scanner;
+public class Homework2 {
+	public static void main(String[] args) {
+	
+	// 1.print 1,4,8,12,16...                For loop
+		System.out.println("1");
+		for (int i = 4; i < 17; i+=4) {
+			System.out.println(i);	
+		} 			
+
+	// 2.Given N ----print backwards to 0	while loop
+		System.out.println();
+		int j = 5;
+		while (j >= 0) {
+			System.out.println(j);
+			j--;
+	  	}
+			
+	// 4.Ask user input and print in palindrome (reverse)
+		System.out.println();
+		System.out.println("Type something :");	
+		Scanner userInput = new Scanner (System.in);
+		String userValue = userInput.nextLine();  
+		
+		for (int x = userValue.length()-1; x >=0; x--) {
+			char y = userValue.charAt(x);
+		System.out.println("last letter is " + y);	
+		}
+	}
+}

@@ -1,0 +1,63 @@
+package topics;
+public class Class1{
+	public static void main(String[] args) { 		
+		
+		System.out.println("kjhkjh");		
+		int x = 2;
+		int y = 1;	
+//		sum (x,y);
+//		Class1.sum(x, y);
+		
+		Class2.sum(x, y);
+		
+		
+	}	
+	
+	
+	
+//	public static void sum(int num1, int num2) {
+//		System.out.println(num1 + num2);
+//	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+////  Static-Static call methods 4 ways	
+//		samePLusFunc(x,y);
+//		E_CurrentClass.samePLusFunc(x,y);			
+//		E_DifferentClass.diffPLusFunc(x,y);
+//		E_DifferentClass customObj = new E_DifferentClass();
+//		customObj.diffPLusFunc(x,y);
+//		
+//
+////  Static-Non-static call methods 2 ways	
+//		E_CurrentClass customObj2 = new E_CurrentClass();
+//		customObj2.sameMinusFunc(x,y);
+//		E_DifferentClass customObj3 = new E_DifferentClass();
+//		customObj3.diffMinusFunc(x,y);
+//	}
+//	
+//	
+//	}	
+//	public void sameMinusFunc(int x, int y) {
+//		System.out.println(x-y);
+
+
+////CMD input already splitted by space
+//		int[] numbers = new int[args.length]; 
+//		for(int i = 0;i < args.length;i++){
+//			numbers[i] = Integer.parseInt(args[i]);
+//		}
+//		System.out.println(numbers[0]+" + "+numbers[1]+" = "+(numbers[0]+numbers[1]));
+//
+//		

@@ -1,0 +1,16 @@
+package externalData;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class RWText {
+
+	public static void main(String[] args) {
+		XSSFWorkbook Book = new XSSFWorkbook();
+		
+		
+		
+		
+		
+	}
+
+}

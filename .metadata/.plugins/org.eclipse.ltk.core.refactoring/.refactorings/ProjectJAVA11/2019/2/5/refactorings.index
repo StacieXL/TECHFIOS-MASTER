@@ -1,0 +1,33 @@
+1548985880652	Move compilation unit
+1549002895241	Move compilation units
+1549002903004	Delete element
+1549002938683	Rename type 'uninherite'
+1549041110871	Rename package 'topics.Inheritance'
+1549041139696	Rename compilation unit 'subclass.java'
+1549041183470	Rename compilation unit 'Inheritsubclass.java'
+1549041205738	Rename type 'nonsubclass'
+1549041344402	Delete element
+1549041367830	Rename type 'Modifier'
+1549041746119	Rename package 'topics.DiffPack'
+1549041850882	Move compilation units
+1549041870195	Delete element
+1549041950169	Move compilation units
+1549042006340	Rename compilation unit 'DiffPackInherit.java'
+1549042017680	Rename type 'DiffPackNonInherit'
+1549042031334	Rename compilation unit 'inherit.java'
+1549042041841	Rename compilation unit 'Package1Inherit.java'
+1549042077616	Rename compilation unit 'uninherit.java'
+1549042085670	Rename package 'topics.Package1'
+1549042306223	Rename package 'topics.Package2'
+1549042316348	Rename compilation unit 'Package2Inherit.java'
+1549042328691	Rename type 'Package2NonInherit'
+1549042348343	Rename compilation unit 'Package1Inherit.java'
+1549042364172	Rename compilation unit 'Pack1Non.java'
+1549042379215	Rename compilation unit 'Pack1Uninherit.java'
+1549042469916	Rename type 'AccessModifiers'
+1549047398751	Rename type 'Pack1Mods'
+1549049124165	Rename type 'Pack2Non'
+1549049133188	Rename type 'Pack1Non'
+1549049203123	Rename package 'topics.Pack1'
+1549049299922	Rename package 'topics.Pack2'
+1549049373937	Rename type 'Pack1AccessMods'

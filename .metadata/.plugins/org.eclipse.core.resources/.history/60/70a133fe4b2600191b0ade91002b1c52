@@ -1,0 +1,33 @@
+package topics.Pack1;
+public class Pack1Mods {
+	static private int		privateVar   = 1;			
+	int 			defaultVar   = 2;
+	protected int 	protectedVar = 3;
+	public 	int 	publicVar    = 4;
+	static 	int 	staticVar    = 0;
+		 
+		 
+	public static void main (String[] args){
+		System.out.println(privateVar);
+		System.out.println(defaultVar);
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println(staticVar);
+
+		
+		
+	}
+		
+	
+//	private staticsum3(staticVar) {
+//		 int x;
+//	}
+	 public void sum () {
+		 System.out.println(10+10);
+	 }
+	 public static void sumStatic() {
+		 System.out.println(10+10);
+		 System.out.println(+20);
+	 } 
+}

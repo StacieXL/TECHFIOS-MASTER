@@ -1,0 +1,21 @@
+package Topics;
+public class Sandbox {
+	public static void main(String[] args) {
+	
+		String a ="How are you doing?";
+		char[] b = a.toCharArray();
+		System.out.println(b);
+		System.out.println("Length of array = "+b.length);
+		for (int i=0;i<b.length;i++) {
+			System.out.println("Char "+i+" = " +b[i]);
+		}
+		
+		
+		System.out.println("===========");
+		String[] c = a.split(" ");	
+		System.out.println(c);
+		for (int j=0;j<b.length;j++) {
+			System.out.println(c[j]);
+		}
+	}	
+}

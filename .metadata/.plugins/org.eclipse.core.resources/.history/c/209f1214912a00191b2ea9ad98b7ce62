@@ -1,0 +1,15 @@
+package topics.ConstructorDemo;
+public class Other {
+	int id;
+	String name;
+	static String school = "TechFios";
+	
+	public Other(int input1, String input2) {
+		id   = input1;
+		name = input2; 
+	};
+			
+	void display () {
+		System.out.println(id +"   "+ name + "     "+school);
+	}
+}

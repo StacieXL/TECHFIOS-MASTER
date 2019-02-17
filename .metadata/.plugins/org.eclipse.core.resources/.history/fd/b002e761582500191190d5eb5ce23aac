@@ -1,0 +1,42 @@
+package topics;
+public class GlobalVar{	
+	static int c = 3;
+	static int d = 4;
+	int e = 5;
+	int f = 6;
+	
+	public static void main(String[] args) { 
+		int a = 1;
+		int b = 2;	
+		
+		staticMethod (a,b);    	//static method    - local variables           
+		staticMethod (c,d);    	//static method    - global static vars          
+		staticMethod2   ();		//static method    - global Nonstatic (e,f)
+		
+		GlobalVar object = new GlobalVar ();      
+		object.nonStatic(a,b); 	//Nonstatic method - static variables
+		object.nonStatic(c,d);  //Nonstatic method - global static vars
+		object.nonStatic2  (); 	//Nonstatic method - global Nonstatic (e,f)
+	}  
+
+	
+	
+	
+	public static void staticMethod(int num1, int num2) {   //static method - static vars
+		System.out.println(num1 + num2);
+	}	
+	public static void staticMethod2() {                 //static method - Nonstatic vars
+		GlobalVar object = new GlobalVar ();              	
+		System.out.println(object.e + object.f + c);  
+	}	
+	public void nonStatic(int num1, int num2) {     	// Nonstatic method - static vars
+		System.out.println(num1 + num2);              	
+	}	
+	public void nonStatic2() {                        //Nonstatic method - Nonstatic vars              	
+		System.out.println(e + f + c + d); 
+	}
+}
+
+
+
+	

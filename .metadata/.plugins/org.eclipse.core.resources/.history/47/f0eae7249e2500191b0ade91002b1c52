@@ -1,0 +1,22 @@
+package homeWorks;
+public class HW4ConstructOverloadWithoutMain {
+
+	public HW4ConstructOverloadWithoutMain() {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverloadWithoutMain(String x) {
+		System.out.println(" ");	
+	}		
+	public HW4ConstructOverloadWithoutMain(int x) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverloadWithoutMain(String x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverloadWithoutMain(int x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverloadWithoutMain(String y, int x) {
+		System.out.println(" ");	
+	}	
+}

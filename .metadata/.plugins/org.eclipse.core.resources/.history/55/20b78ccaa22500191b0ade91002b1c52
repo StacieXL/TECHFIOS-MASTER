@@ -1,0 +1,22 @@
+package homeWorks;
+public class HW4ConstructOverload2 {
+
+	public HW4ConstructOverload2() {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverload2(String x) {
+		System.out.println(" ");	
+	}		
+	public HW4ConstructOverload2(int x) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverload2(String x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverload2(int x, String y) {
+		System.out.println(" ");	
+	}	
+	public HW4ConstructOverload2(String y, int x) {
+		System.out.println(" ");	
+	}	
+}

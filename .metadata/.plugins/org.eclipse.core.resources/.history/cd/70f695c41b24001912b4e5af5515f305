@@ -1,0 +1,76 @@
+package Topics;;
+public class D_ArraysSingleDouble {
+	public static void main(String[] args) {
+//// Single array ver. 1
+		// String[] carNames = {"Volvo", "BMW", "Ford", "Mazda"};
+		// System.out.println("Single Array ver1 = "+ carNames[3]); //=mazda
+		//
+//// Single array ver. 2
+//		String[] carNames2 = new String [4];
+//		carNames2 [0] = "Volvo";
+//		carNames2 [1] = "BMW";
+//		carNames2 [2] = "Ford";
+//		carNames2 [3] = "Mazda";
+//		System.out.println("Single Array ver2 = "+ carNames2[3]); //=mazda
+		
+//// Single array ver. 2 loop thru
+		// for(int i = 0; i < carNames.length; i++) {
+		// System.out.println("Single Array Any version Loop thru =
+		//// "+carNames[i]);
+		// }
+
+// Double array Style 1
+		System.out.println("DOUBLE ARRAY Style 1");
+		int[][] array1 = {{1, 2, 3, 4}, {5, 6, 7,}};
+		System.out.println("{ {1, 2, 3, 4}, {5, 6, 7,} };");
+		System.out.println("last number is = " + array1[1][2]); // =7
+		System.out.println("number of rows = " + array1.length);
+		System.out.println("length of row1 (column)= " + array1[0].length);
+		System.out.println("length of row2 (column)= " + array1[1].length);
+                                                       
+// Double array Style 2
+		System.out.println();
+		System.out.println("DOUBLE ARRAY Style 2");
+		int array2[][] = new int[2][4]; //(2 rows, 4 columns)
+		array2[0][0] = 1;
+		array2[0][1] = 2;
+		array2[0][2] = 3;
+		array2[0][3] = 4;
+        
+		array2[1][0] = 5;
+		array2[1][1] = 6;
+		array2[1][2] = 7;
+		System.out.println("last number is = " + array2[1][2]); // =7
+
+// Double array loop thru both versions
+		System.out.println();
+		System.out.println("LOOP THRU Ver1");
+		for (int i = 0; i < array1.length; ++i) {
+			for (int j = 0; j < array1[i].length; ++j) { //try i with 0
+				System.out.println(array1[i][j]+ " ");						
+			}
+		}
+
+		System.out.println();
+		System.out.println("LOOP THRU Ver2");
+		for (int i = 0; i < array2.length; ++i) {
+			for (int j = 0; j < array2[i].length; ++j) { //inside loop first
+				System.out.print(array2[i][j]+ " ");						
+			}
+		}
+
+//MANUAL LOOP
+		System.out.println();
+		System.out.println();
+		System.out.println("MANUAL LOOP");
+		System.out.print(array1[0][0]+ " "); 
+		System.out.print(array1[0][1]+ " "); 
+		System.out.print(array1[0][2]+ " "); 
+		System.out.print(array1[0][3]+ " "); 
+		                 
+		System.out.print(array1[1][0]+ " "); 
+		System.out.print(array1[1][1]+ " "); 
+		System.out.print(array1[1][2]+ " "); 
+//		System.out.print(array1[1][3]+ " ");			
+	}
+}

@@ -1,0 +1,19 @@
+package Topics;
+
+public class BreakSwitch {
+
+	public static void main(String[] args) {				
+			    double BMI = 20.5;					
+			    String result;					
+			    result = (BMI < 18.5) ? "Under weight"					
+			                  : (BMI >= 18.5 && BMI <= 24.9) ? "Normal weight"					
+			                  : (BMI >= 25   &&  BMI <= 29.9) ? "Over wieght"					
+			                  : (BMI >= 30) ? "Obesity"					
+			                  : " ";					
+			    System.out.println(result);					
+			  }					
+			}					
+
+	}
+
+}
